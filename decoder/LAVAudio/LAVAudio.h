@@ -306,7 +306,6 @@ private:
   BOOL                m_bQueueResync     = FALSE;
   BOOL                m_bResyncTimestamp = FALSE;
   BOOL                m_bNeedSyncpoint   = FALSE;
-  BOOL                m_bJustFlushed     = TRUE;
   BufferDetails       m_OutputQueue;
 
   AVIOContext        *m_avioBitstream = nullptr;
